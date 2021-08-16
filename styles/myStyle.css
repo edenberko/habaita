@@ -1,0 +1,1010 @@
+﻿body {
+    direction: ltr !important;
+    margin: auto, 0;
+    /*background-image: url('../images/DSC02171.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;*/
+}
+
+.container {
+    
+}
+
+
+
+
+
+
+.headerImg {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+    .headerImg img {
+        vertical-align: middle;
+        width:100%;
+        height:auto;
+    }
+  
+
+.headerText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: rgb(0, 0, 0);*/ /* Fallback color */
+    /*background: rgba(255, 255, 255,0.3);*/  
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 45px;
+    text-align: left;
+    text-align:center;
+    font-size:30pt;
+}
+    .headerText p b{
+        color:white;
+    }
+
+    /*.headerText p b:first-child {
+        color: rgb(224,137,146);
+    }
+
+    .headerText p b {
+        color: rgb(109,193,117);
+    }
+        .headerText p b:last-child {
+            color: rgb(249,159,65)
+        }*/
+
+
+
+    .textChariter {
+        text-align: center;
+        padding: 75px;
+    }
+/*.right {
+    direction:rtl;
+}*/
+/*גדול סרטון בעמוד בית*/
+.sortVideo {
+    width: 100%;
+    max-width: 580px;
+    height: 100%;
+    max-height: 303px;
+    cursor: pointer;
+}
+/*תמונת הדמות בעמוד בית*/
+.imagCharIndex {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 300px;
+}
+/*חלון הסרטון בעמוד הדמות*/
+.vidaoPage {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 1000px;
+}
+/*אייקונים בעמוד בדמות*/
+.iconChar {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+    margin: 5px;
+}
+#vidaoChar1 {
+    margin:40px 0px;
+    align-items:center;
+}
+
+h1 {
+    text-align: center;
+    color:black !important;
+}
+header {
+    height: 100%;
+    max-height: 1000px;
+    width: 100%;
+    max-width: 60px;
+    background-color: white;
+}
+#imagbig {
+    height: 100%;
+    max-height: 1000px;
+    width: 100%;
+    max-width: 1500px;
+    background-image: url('../images/bigpic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+footer {
+    border-top: 2px solid black;
+    height: 100%;
+    max-height: 1000px;
+    width: 100%;
+    max-width: 60px;
+}
+
+
+
+/*תפריט */
+/* Dropdown Button */
+.dropbtn {
+    /*background-color: #3498DB;*/
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        /*background-color: #2980B9;*/
+    }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    top:-10px;
+    /*display: inline-block;*/
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align:left;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+   
+}
+
+    .topnav a {
+        float: right;
+        display: block;
+        color: dimgray;
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            font-size: 18px;
+        }
+
+        .topnav a.active {
+            color: black;
+        }
+
+    .topnav .icon {
+        display: none;
+    }
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+}
+
+
+#logo{
+    font-size:35px;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+#myHeader{
+    padding:5px 35px;
+    height:70px;
+    width:100%;
+}
+
+
+
+/*עמוד אודות*/
+#aboutPage {
+    text-align: center;
+}
+#aboutPage p{
+  font-size:larger;
+}
+#h2about{
+    text-align:center;
+    padding:35px;
+}
+
+/*עיצוב דיב קרוסלה*/
+#openChars{
+    max-height:2000px;
+    height:100%;
+    max-width:1500px;
+    width:100%;
+    
+}
+
+.vidaoPage {
+   
+    height: 100%;
+    max-height: 250px;
+}
+.dicripText {
+    margin-top: 125px;
+    padding: 0px 100px 0px 55px;
+    float: right;
+    text-align: left;
+    background-image: url('../images/descrip1.png');
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+a    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#closebtn {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    margin: 20px;
+    z-index: 100;
+    background-color: black;
+    color: white;
+    font-size: 16pt;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+    #closebtn :hover {
+        color: #f1f1f1;
+    }
+
+
+    .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+/*כתפור ראה עודד*/
+.button {
+    /*border-radius: 4px;*/
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 15pt;
+    padding: 5px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.btnchar1 {
+    background-color: rgb(249,159,65);
+    transition: all .3s ease-in;
+}
+   .btnchar1:hover {
+        background-color: rgb(255,207,128);
+        transition: all .3s ease-in;
+    }
+
+#btnchar2 {
+    background-color: rgb(109,193,117);
+}
+#btnchar2:hover {
+    background-color: rgb(192,221,148);
+}
+
+#btnchar3 {
+    background-color: rgb(242,210,79);
+}
+
+    #btnchar3:hover {
+        background-color: rgb(255,227,164);
+        cursor:not-allowed;
+    }
+
+
+
+
+/* Style the tab */
+.tab {
+    text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: inline-block;
+    color: black;
+    padding: 22px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    opacity: 0.8;
+    height:50px;
+    width:50px;
+}
+
+        /* Change background color of buttons on hover */
+    /*.tab button:hover {
+        background-color: rgb(255,207,128);
+        
+    }*/
+
+        /* Create an active/current "tab button" class */
+    /*.tab button.active {
+        background-color: rgb(255,207,128);
+    }*/
+
+
+.tablinks1 {
+    background-color: rgb(249,159,65);
+  
+}
+
+.tablinks1:hover {
+    background-color: rgb(255,207,128);
+}
+
+
+.tablinks1.active {
+    background-color: rgb(255,207,128);
+}
+
+
+    .tablinks2 {
+        background-color: rgb(109,193,117);
+    }
+           
+.tablinks2:hover {
+    background-color: rgb(192,221,148);
+}
+
+
+.tablinks2.active {
+    background-color: rgb(192,221,148);
+}
+
+
+/* Style the tab content */
+.tabcontent1 {
+    margin: auto;
+    padding: 0px 12px;
+    border-left: none;
+    width: 70%;
+}
+.tabcontent2 {
+    margin: auto;
+    padding: 0px 12px;
+    border-left: none;
+    width: 70%;
+}
+
+
+.more {
+    /*display:none;*/
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    align-items: center;
+    background-color:white;
+    z-index:100;
+
+}
+
+/*.transMore {
+    height: 0%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.transMore-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}*/
+
+
+
+
+
+
+
+.center-con {
+    display: flex;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.round {
+    position: absolute;
+    top:90%;
+    left:90%;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transform: rotate(270deg);
+}
+
+#cta {
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+    #cta .arrow {
+        left: 7%;
+    }
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+    margin-left: 0px;
+    width:25px;
+    height: 28px;
+    background-size: contain;
+    top: 6px;
+}
+
+.segunda {
+    margin-left: 8px;
+}
+
+.next {
+    background-image: url('../images/arrow.png');
+}
+
+@keyframes bounceAlpha {
+    0% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateX(10px) scale(0.9);
+    }
+
+    26% {
+        opacity: 0;
+        transform: translateX(-10px) scale(0.9);
+    }
+
+    55% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.arrow.primera.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration: 1.4s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.round:hover .arrow {
+    animation-name: bounceAlpha;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+    .round:hover .arrow.primera {
+        animation-name: bounceAlpha;
+        animation-duration: 1.4s;
+        animation-delay: 0.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+
+
+
+
+.overlayMore {
+    height: 0;
+    width: 100%;
+    /*position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;*/
+    background-color: white;
+    overflow-x: hidden;
+    /*transition: 0.3s;*/
+}
+
+.to-top {
+    color: black;
+    padding-top: 1.8em;
+    display: inline-block; /* or block */
+    position: relative;
+    left:90%;
+    border-color: black;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    margin-bottom:30px;
+}
+
+    .to-top:before {
+        content: '▲';
+        font-size: 28px;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        margin-left: -0.7em;
+        border: solid 2px black;
+        border-radius: 10em;
+        width: 40px;
+        height: 40px;
+        line-height: 25px;
+        border-color: inherit;
+        padding-left: 6px;
+        padding-top: 2px;
+        transition: transform .5s ease-in;
+
+    }
+
+.to-top:hover {
+    color: black;
+    border-color: black;
+}
+
+    .to-top:hover:before {
+        transform: rotate(360deg);
+    }
+
+
+
+
+/*בר התקדמות של המכונית*/
+.carMove {
+    width: 100px;
+    height: 45px;
+    display: inline-block;
+    background-image: url(../images/newlogo.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-timing-function: linear;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 50px;
+    }
+}
+
+.drive {
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+.p-big {
+    font-weight: 600;
+    font-size:larger;
+}
+.dataBox {
+    text-align: center;
+    height: 180px;
+    display: inline-block;
+    margin: auto;
+    width: 33%;
+}
+
+
+
+.iconsDiv{
+}
+
+.iconMore {
+    display: inline-block;
+    position: relative;
+    width: 33%;
+    height: 150px;
+    /*background-color: rgb(255,207,128);*/
+}
+
+.iconImage {
+    display:block;
+   
+    width: 50px;
+    height: 50px;
+   
+    
+}
+
+.iconOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FF9933;
+}
+
+.iconMore:hover .iconOverlay {
+    opacity: 1;
+}
+
+.iconText {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height:10px;
+    background-color:none;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/*.sliderI {
+    background: rgb(255,207,128);
+}
+
+.sliderY {
+    background: rgb(192,221,148);
+}*/
+
+.slider:hover {
+    opacity: 1;
+}
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100px;
+        height: 45px;
+        cursor: pointer;
+        background-image: url('../images/newlogo.png');
+        background-size: 80px;
+        background-repeat:no-repeat;
+        margin-left:12.5px;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 50px;
+        height: 50px;
+        background: #04AA6D;
+        cursor: pointer;
+    }
+.outputCar{
+    margin:auto,0;
+    width:200px;
+    height:150px;
+   
+}
+.pointOn{
+    background-color:black;
+    height:20px;
+    width:30px;
+    display:inline-block;
+    margin-left:12.5%;
+}
+
+
+.center-con {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.round {
+    position: relative;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+spanArrow {
+    z-index: 999;
+    height: 3px;
+    margin: 1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+    spanArrow:first-child {
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        left: 25%;
+        bottom: 35%;
+    }
+
+    spanArrow:nth-child(2) {
+        display: block;
+        position: absolute;
+        transform: rotate(-45deg);
+        left: 45%;
+        bottom: 35%;
+    }
+
+    spanArrow:nth-child(3) {
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        left: 25%;
+        bottom: 54%;
+    }
+
+    spanArrow:nth-child(4) {
+        display: block;
+        position: absolute;
+        transform: rotate(-45deg);
+        left: 45%;
+        bottom: 54%;
+    }
+
+.round:hover spanArrow:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover spanArrow:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover spanArrow:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover spanArrow:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+
+
+
+
+/*חץ אנימציה להזיז את הרכב*/
+
+
+.arrowCar {
+    height:50px;
+    width:auto;
+    padding-left:35px;
+}
+
+    .arrowCar span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-bottom: 2px solid black;
+        border-right: 2px solid #000000;
+        transform: rotate( -45deg );
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+
+        .arrowCar span:nth-child(2) {
+            animation-delay: -0.2s;
+        }
+
+        .arrowCar span:nth-child(3) {
+            animation-delay: -0.4s;
+        }
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(-45deg) translate(-20px,-20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(-45deg) translate(20px,20px);
+    }
+}
+
+
+
+ /*חץ למטה לסרטון*/
+.arrowD {
+    /*height: 100px;*/
+    margin-left: 75%;
+    margin-top: -26%;
+}
